@@ -1,3 +1,9 @@
 <div>
-    {{-- To attain knowledge, add things every day; To attain wisdom, subtract things every day. --}}
+    {{-- --}}
+
+    <div class="container mx-auto px-4 ">
+     <span class="text-red-500 ">   {{  $new }}</span>
+     <input type="text" wire:model='new'>
+    </div>
+
 </div>

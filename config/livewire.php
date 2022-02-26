@@ -3,16 +3,7 @@
 return [
 
     /*
-    |--------------------------------------------------------------------------
-    | Class Namespace
-    |--------------------------------------------------------------------------
-    |
-    | This value sets the root namespace for Livewire component classes in
-    | your application. This value affects component auto-discovery and
-    | any Livewire file helper commands, like `artisan make:livewire`.
-    |
-    | After changing this item, run: `php artisan livewire:discover`.
-    |
+
     */
 
     'class_namespace' => 'App\\Http\\Livewire',
@@ -39,7 +30,8 @@ return [
     |
     */
 
-    'layout' => 'layouts.app',
+   'layout' => 'layouts.app',
+   //  'layout' => 'layouts.bs',
 
     /*
     |--------------------------------------------------------------------------
