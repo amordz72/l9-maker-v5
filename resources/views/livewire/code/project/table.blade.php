@@ -2,6 +2,8 @@
 
 
 
+
+
     <table class="table table-hover table-responsive text-center">
         <thead class=" table-dark ">
             <tr>
@@ -22,8 +24,8 @@
         </tbody>
     </table>
 
-<div class="d-flex justify-content-evenly">
-      {{ $project->links() }}</div>
+    <div class="d-flex justify-content-evenly">
+        {{ $project->links() }}</div>
 
 
 
