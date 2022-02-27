@@ -2,21 +2,21 @@
 
 namespace App\Http\Livewire\Code\Project;
 
-use Livewire\Component;
 use App\Models\Project;
-
+use Livewire\Component;
 
 class Table extends Component
 {
 
-    public  $project=array();
+    public $projects = array();
 
     public function render()
     {
-$this->project=Project::all();
 
-        return view('livewire.code.project.table');
+        return view('livewire.code.project.table', [
+            'project' => Project::paginate(1),
+
+        ]);
     }
-
 
 }

@@ -10,6 +10,6 @@ class Index extends Component
     public $sh_tbl=false;
     public function render()
     {
-        return view('livewire.code.project.index')->layout('layouts.bs');;
+        return view('livewire.code.project.index')->layout('layouts.bs');
     }
 }
