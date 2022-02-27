@@ -44,8 +44,8 @@
                                 Code
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="{{ route('.index') }}">Project</a></li>
-                                <li><a class="dropdown-item" href="{{ route('.create') }}">Project Create</a></li>
+                                <li><a class="dropdown-item" href="{{ route('code.project.index') }}">Project</a></li>
+                                <li><a class="dropdown-item" href="{{ route('code.project.create') }}">Project Create</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
